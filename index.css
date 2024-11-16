@@ -1,0 +1,77 @@
+html {
+    width: 100vw;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.f-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.f-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.title-font {
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.j-between {
+    justify-content: space-between;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+@keyframes pulseGlow {
+    0% {
+        filter: drop-shadow(0 0 0px white);
+    }
+    50% {
+        filter: drop-shadow(0 0 15px white);
+    }
+    100% {
+        filter: drop-shadow(0 0 0px white);
+    }
+}
+
+#logo {
+    filter: drop-shadow(0 0 15px white);
+    animation: pulseGlow 3s linear infinite;
+}
+
+.list {
+    max-width: 768px;
+    margin: 15px auto;
+}
+
+.list li {
+    list-style: none;
+}
+
+.list li:hover {
+    animation: pulseGlow 3s linear infinite;
+}
+
+.link {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
