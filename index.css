@@ -24,6 +24,27 @@ body {
     text-transform: uppercase;
 }
 
+.title-border {
+    position: relative;
+    overflow: hidden;
+}
+
+.title-border::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 5px;
+    background-color: #9bf00b;
+    z-index: 0;
+    transition: width 0.5s ease-in-out;
+}
+
+.title-border:hover::after {
+    width: 95%;
+}
+
 .j-center {
     justify-content: center;
 }
@@ -74,4 +95,9 @@ body {
     cursor: pointer;
     text-decoration: none;
     color: white;
+}
+
+main {
+    max-width: 1024px;
+    margin: 20px auto;
 }
