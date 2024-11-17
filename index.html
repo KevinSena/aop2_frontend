@@ -25,10 +25,10 @@
         <nav class="w-100">
             <ul class="f-row j-between list">
                 <li><a class="link" href="index.html">home</a></li>
-                <li><a class="link" >resenhas</a></li>
-                <li><a class="link" >mais jogados</a></li>
-                <li><a class="link" >lançamentos</a></li>
-                <li><a class="link" >contato</a></li>
+                <li><a class="link" href="resenhas.html" >resenhas</a></li>
+                <li><a class="link" href="mais_jogados.html" >mais jogados</a></li>
+                <li><a class="link" href="lancamentos.html" >lançamentos</a></li>
+                <li><a class="link" href="contatos.html" >contato</a></li>
             </ul>
         </nav>
     </header>
@@ -39,7 +39,47 @@
             Além disso, na seção de Contatos, você pode nos enviar sugestões, dúvidas ou até compartilhar suas próprias experiências com jogos.
             Navegue pelas páginas, explore conteúdos exclusivos e descubra o que faz do Xbox uma experiência incrível para todos os gamers!
         </p>
+
+        <h2 style="font-size: x-large; width: fit-content" class="title-font title-border">Destaques:</h2>
+        <div class="f-row j-between">
+            <div class="f-col bg-gray rounded card">
+                <a style="text-decoration: none;" href="resenhas.html">
+                <img
+                        class="card-img"
+                        src="https://store-images.s-microsoft.com/image/apps.2173.13567343664224659.80549498-60fd-43e8-8e69-6dbaf57c5b6d.8e7c69e3-1a7e-4155-965a-757c6bce9259"
+                        alt="Starfield image"
+                >
+                </a>
+                <h3 class="title-font m-5">Resenha do Starfield</h3>
+            </div>
+            <div class="f-col bg-gray rounded card">
+                <a style="text-decoration: none;" href="mais_jogados.html">
+                <img
+                        class="card-img"
+                        src="https://www.adrenaline.com.br/wp-content/uploads/2024/10/review-call-of-duty-black-ops-6-912x569.webp"
+                        alt="Call of duty cover image"
+                >
+                </a>
+                <h3 class="title-font m-5">Mais jogados no Game Pass</h3>
+            </div>
+            <div class="f-col bg-gray rounded card">
+                <a style="text-decoration: none;" href="lancamentos.html">
+                <img
+                        class="card-img"
+                        src="https://gaming-cdn.com/images/products/8043/616x353/indiana-jones-and-the-great-circle-pc-game-steam-cover.jpg?v=1730132109"
+                        alt="Indiana Jones and the Great Circle cover image"
+                >
+                </a>
+                <h3 class="title-font m-5">Veja os novos lançamentos</h3>
+            </div>
+        </div>
     </main>
+
+    <footer>
+        <p style="font-size: large">
+            Site criado para avaliação de FrontEnd
+        </p>
+    </footer>
 </body>
 <script>
     window.onload = () => {
