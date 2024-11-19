@@ -1,10 +1,14 @@
 
 
 html, body {
+    width: 100vw;
+    height: 100vh;
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .f-col {
@@ -98,6 +102,12 @@ html, body {
 main {
     max-width: 1024px;
     margin: 20px auto;
+    flex: 1;
+}
+
+.p-content {
+    text-align: justify;
+    font-size: 1.5rem;
 }
 
 .bg-gray {
@@ -140,4 +150,12 @@ footer {
 footer p {
     text-align: center;
     color: white;
+}
+
+.divider {
+    border: none;
+    height: 4px;
+    background: linear-gradient(to right, #4CAF50, #222, #4CAF50);
+    margin: 30px 0;
+    border-radius: 5px;
 }
