@@ -38,7 +38,7 @@ html, body {
     left: 0;
     width: 0;
     height: 5px;
-    background-color: #9bf00b;
+    background: linear-gradient(to right, #4CAF50, #222, #4CAF50);;
     z-index: 0;
     transition: width 0.5s ease-in-out;
 }
